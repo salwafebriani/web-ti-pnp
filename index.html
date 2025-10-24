@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jurusan Teknologi Informasi demo</title>
+		
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+		<!-- Bootstrap Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<!-- Font Awesome -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<!--navbar biru-->
+		<div class="container-fluid bg-info py-1" >
+			<div class="container d-flex justify-content-end align-items-center py-1">
+				<div class="text-white">
+					<a href="#" class="text-white text-decoration-none me-3" title="Facebook"><i class="bi bi-facebook"></i></a>
+					<a href="#" class="text-white text-decoration-none me-3" title="YouTube"><i class="bi bi-youtube"></i></a>
+					<a href="#" class="text-white text-decoration-none me-3" title="Instagram"><i class="bi bi-instagram"></i></a>
+					<a href="#" class="text-white text-decoration-none" title="Pencarian"><i class="bi bi-search"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+		 <div class="container">
+			<a class="navbar-brand d-flex align-items-center" href="index.html">
+				<img src="https://ti.pnp.ac.id/wp-content/uploads/2022/01/logo-ti-pnp-05-1.png" alt="Logo" height="60">
+			</a>
+		
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="index.html">
+					<div>Beranda</div>
+					<small class="fst-italic text-secondary">Home</small>
+				  </a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<div>Profil</div>
+					<small class="fst-italic text-secondary">Profile</small>
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+					<li><a class="dropdown-item" href="visimisi.html">Visi dan Misi</a></li>
+					<li><a class="dropdown-item" href="tujuan.html">Tujuan Strategis</a></li>
+					<li><a class="dropdown-item" href="sasaran.html">Sasaran Strategis</a></li>
+					<li><a class="dropdown-item" href="struktur.html">Stuktur Organisasi</a></li>
+					<li><a class="dropdown-item" href="pimpinan.html">Pimpinan Jurusan</a></li>
+					<li><a class="dropdown-item" href="dosen.html">Dosen / Staf Pengajar</a></li>
+					<li><a class="dropdown-item" href="fasilitas.html">Fasilitas</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<div>Program Studi</div>
+					<small class="fst-italic text-secondary">All of us</small>	
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="deskripsitrpl.html">D4 Teknologi Rekayasa Perangkat Lunak</a></li>
+					<li><a class="dropdown-item" href="#">D4 Animasi</a></li>
+					<li><a class="dropdown-item" href="#">D3 Manajemen Informatika</a></li>
+					<li><a class="dropdown-item" href="#">D3 Teknik Komputer</a></li>
+					<li><a class="dropdown-item" href="#">D2 Administrasi Jaringan Komputer</a></li>
+					<li><a class="dropdown-item" href="#">D3 Sistem Informasi</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<div>Akademik</div>
+					<small class="fst-italic text-secondary">Academic</small>
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
+					<li><a class="dropdown-item" href="kalender.html">Kalender Akademik</a></li>
+					<li><a class="dropdown-item" href="#">SOP / Panduan</a></li>
+					<li><a class="dropdown-item" href="#">Uang Kuliah Tunggal</a></li>
+					<li><a class="dropdown-item" href="#">Prestasi Mahasiswa</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<div>Penelitian</div>
+					<small class="fst-italic text-secondary">& Kerjasama</small>
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="jurnal.html">Jurnal</a></li>
+					<li><a class="dropdown-item" href="academy.html">Academy</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<div>Hubungi Kami</div>
+					<small class="fst-italic text-secondary">Contact us</small>
+				  </a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="hubungi.html">Hubungi Kami</a></li>
+					<li><a class="dropdown-item" href="#">Saran dan Masukkan</a></li>
+					<li><a class="dropdown-item" href="#">Chatbot Interaktif</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		
+		<!--Carousel/Slideshow-->
+		<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<div class="ratio ratio-16x9">
+				  <img src="https://blog.cakap.com/wp-content/uploads/2024/02/programming-background-with-person-working-with-codes-computer-1600x1067.jpg" class="img-fluid w-100 h-100" alt="Hero 1">
+				</div>
+				<div class="carousel-caption d-none d-md-block">
+				  <h2 class="display-6 fw-bold">Selamat Datang di Jurusan Teknologi Informasi Politeknik Negeri Padang</h2>
+				  <p>Pusat pengembangan teknologi dan inovasi digital di Politeknik Negeri Padang</p>
+				  <a class="btn btn-warning text-dark fw-bold" href="#">Pelajari Lebih Lanjut</a>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<div class="ratio ratio-16x9">
+				  <img src="images/gambar4.jpg" class="img-fluid w-100 h-100" alt="Hero 2">
+				</div>
+				<div class="carousel-caption d-none d-md-block">
+				  <h2 class="fw-bold">Kurikulum Berbasis Industri</h2>
+				  <p>Mempersiapkan mahasiswa siap kerja di bidang teknologi informasi</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<div class="ratio ratio-16x9">
+				  <img src="images/gambar1.jpg" class="img-fluid w-100 h-100" alt="Hero 3">
+				</div>
+				<div class="carousel-caption d-none d-md-block">
+				  <h2 class="fw-bold">Aktivitas Mahasiswa</h2>
+				  <p>Mengembangkan kreativitas melalui organisasi dan inovasi teknologi</p>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	  
+		
+		<!--Alert-->
+		<div class="container-fluid bg-info py-1">
+			<div class="container py-3 d-flex justify-content-between align-items-center">
+				<div class="text-black">
+					<h4 class="mb-1 fw-bold"  style="font-size: 1.25rem;">Penerimaan Mahasiswa Baru</h4>
+					<p class="mb-0" style="font-size: 0.85rem; opacity: 0.8;">Informasi Tentang Penerimaan Mahasiswa Baru Politeknik Negeri Padang</p>
+				</div>
+				
+				<a href="#" class="btn btn-sm text-dark fw-bold border-0" style="background-color: white; border-radius: 5px;">
+					Tampilkan Lebih Banyak
+				</a>
+			</div>
+		</div>
+		
+		<!-- Main Content-->
+		<div class="container my-5">
+		<h3 class="text-center"><b>Selamat Datang di Jurusan Teknologi Informasi</b></h3>
+		<br></br>
+
+		<!--Column 4 Info-->
+		<div class="row d-flex align-items-stretch">
+			<div class="col-lg-3 col-md-6 mb-2">
+				<div class="card text-center h-100">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5RH79GZYIyyn6ez5l0uP2IOP2wnPxaPXxkc44lAUcaHmaWG0daonsff_RoNr0OK1ILQ&usqp=CAU"
+						class="card-img-top" alt="...">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>Kalender Akademik</b></h5>
+						<p class="card-text">Semua kegiatan proses pembelajaran Politeknik Negeri Padang dalam satu
+							tahun akademik</p>
+						<a href="#" class="btn btn-primary w-100 mt-auto">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-2">
+				<div class="card text-center h-100">
+					<img src="https://png.pngtree.com/png-vector/20220713/ourmid/pngtree-cartoon-certificate-grade-png-image_5933905.png"
+						class="card-img-top" alt="...">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>Akreditasi Prodi</b></h5>
+						<p class="card-text">Penilaian kelayakan Program Studi Jurusan Teknologi Informasi Politeknik
+							Negeri Padang</p>
+						<a href="#" class="btn btn-primary w-100 mt-auto">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-2">
+				<div class="card text-center h-100">
+					<img src="https://png.pngtree.com/png-clipart/20221223/original/pngtree-schedule-presentation-png-image_8797927.png"
+						class="card-img-top" alt="...">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>Jadwal Kuliah</b></h5>
+						<p class="card-text">Jadwal Perkuliahan Semester Ganjil Tahun Ajaran 2024/2025 Jurusan Teknologi
+							Informasi</p>
+						<a href="#" class="btn btn-primary w-100 mt-auto">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-2">
+				<div class="card text-center h-100">
+					<img src="https://png.pngtree.com/png-clipart/20250119/original/pngtree-download-logo-with-folder-png-image_6832794.png"
+						class="card-img-top" alt="...">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>Download Area</b></h5>
+						<p class="card-text">Kumpulan Panduan / Standart Operating Prosedure Jurusan Teknologi Informasi
+						</p>
+						<a href="#" class="btn btn-primary w-100 mt-auto">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Column 6 Info-->
+		<div class="row d-flex align-items-stretch mt-4">
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="card text-center h-100">
+					<img src="https://media.istockphoto.com/id/1270155083/id/vektor/vektor-desain-logo-e-book-biru-tanda-simbol-ikon-pustaka-buku-elektronik.jpg?s=612x612&w=0&k=20&c=ehvcNGhU1skV6-9C-qyuz23oTWluvIwzM9uMs8zkKYQ="
+						height="160px" class="card-img-top" alt="spada">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>SPADA</b></h5>
+						<p class="card-text">SisFo Pembelajaran Daring</p>
+						<a href="#" class="btn btn-warning w-100 mt-auto text-dark">Klik Disni</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="card text-center h-100">
+					<img src="https://png.pngtree.com/png-clipart/20250425/original/pngtree-illustration-of-a-closed-book-with-bold-colors-vector-png-image_20789887.png"
+						height="160px" class="card-img-top" alt="sita">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>SITA</b></h5>
+						<p class="card-text">SisFo Tugas Akhir</p>
+						<a href="#" class="btn btn-warning w-100 mt-auto text-dark">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="card text-center h-100">
+					<img src="https://cdn-icons-png.flaticon.com/512/4700/4700245.png" height="160px"
+						class="card-img-top" alt="siakad">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>SIAKAD</b></h5>
+						<p class="card-text">SisFo Akademik</p>
+						<a href="#" class="btn btn-warning w-100 mt-auto text-dark">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="card text-center h-100">
+					<img src="images/gambar3.jpg" height="160px" class="card-img-top" alt="mkbkm">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>MKBKM</b></h5>
+						<p class="card-text">Sisfo MBKM</p>
+						<a href="#" class="btn btn-warning w-100 mt-auto text-dark">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="card text-center h-100">
+					<img src="https://st4.depositphotos.com/20838724/22973/v/450/depositphotos_229732522-stock-illustration-comment-icon-vector-speech-bubble.jpg"
+						height="160px" class="card-img-top" alt="sati">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>SATIK</b></h5>
+						<p class="card-text">Sisfo Saran dan Kritik</p>
+						<a href="#" class="btn btn-warning w-100 mt-auto text-dark">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="card text-center h-100">
+					<img src="https://cdn.vectorstock.com/i/500p/46/14/simple-icon-waving-rupiah-paper-money-isolated-vector-32444614.jpg"
+						height="160px" class="card-img-top" alt="ukt">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>UKT</b></h5>
+						<p class="card-text">SisFo Uang Kuliah Tunggal</p>
+						<a href="#" class="btn btn-warning w-100 mt-auto text-dark">Klik Disini</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Berita Terbaru -->
+		<div class="text-center my-5">
+			<h4 class="fw-bold text-uppercase">BERITA TERBARU</h4>
+			<p class="text-muted small mb-0">Berita Terbaru Seputar Jurusan Teknologi Informasi Politeknik Negeri Padang
+			</p>
+		</div>
+
+		<div class="container text-center mt-4">
+			<!-- Baris ke 1 -->
+			<div class="row g-1 mb-1">
+				<div class="col-sm-8">
+					<div class="position-relative overflow-hidden rounded">
+						<img src="https://ti.pnp.ac.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-01-at-10.12.36.jpeg"
+							class="img-fluid w-100" alt="..." height="250" style="object-fit:cover; height:250px;	">
+						<div
+							class="position-absolute bottom-0 start-0 w-100 bg-info bg-opacity-50 text-white text-start p-2">
+							<div class="fw-semibold small">Dr. Ir. Yuhefizar, S.Kom, M.Kom Dilantik sebagai Ketua
+								Jurusan TI PNP</div>
+							<div class="small opacity-75">Khairiyah Almadani — October 1, 2025</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="position-relative overflow-hidden rounded">
+						<img src="https://ti.pnp.ac.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-02-at-15.02.37.jpeg"
+							class="img-fluid w-100" alt="..." height="250" style="object-fit:cover; height:250px;">
+						<div
+							class="position-absolute bottom-0 start-0 w-100 bg-info bg-opacity-50 text-white text-start p-2">
+							<div class="fw-semibold small">Kunjungan Direktur PT Nagari Global Trust, Edo Pratama—alumni
+								TI PNP, untuk Pengembangan SDM Bersertifikasi BNSP</div>
+							<div class="small opacity-75">Afifah Hidayati Z — October 2, 2025</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Baris ke 2 -->
+			<div class="row g-1">
+				<div class="col-sm">
+					<div class="position-relative overflow-hidden rounded">
+						<img src="https://ti.pnp.ac.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-02-at-14.20.42-723x1024.jpeg"
+							class="img-fluid w-100" alt="..." height="200" style="object-fit:cover; height:200px;">
+						<div
+							class="position-absolute bottom-0 start-0 w-100 bg-info bg-opacity-50 text-white text-start p-2">
+							<div class="fw-semibold small">Dosen TI PNP Berkontribusi dalam IRLS 2025 di Azerbaijan:
+								Wujud Peran Aktif di Kancah Internasional</div>
+							<div class="small opacity-75">Khairiyah Almadani — October 4, 2025</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="position-relative overflow-hidden rounded">
+						<img src="https://ti.pnp.ac.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-01-at-15.05.26.jpeg"
+							class="img-fluid w-100" alt="..." height="200" style="object-fit:cover; height:200px;">
+						<div
+							class="position-absolute bottom-0 start-0 w-100 bg-info bg-opacity-50 text-white text-start p-2">
+							<div class="fw-semibold small">Awali Kepemimpinan Baru, Jurusan Teknologi Informasi PNP
+								Terima Kunjungan Nagari Sungai Jambu untuk Pendampingan Program Nagari Digital</div>
+							<div class="small opacity-75">Afifah Hidayati Z — October 1, 2025</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="position-relative overflow-hidden rounded">
+						<img src="https://ti.pnp.ac.id/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-06-at-16.36.12.jpeg"
+							class="img-fluid w-100" alt="..." height="200" style="object-fit:cover; height:200px;">
+						<div
+							class="position-absolute bottom-0 start-0 w-100 bg-info bg-opacity-50 text-white text-start p-2">
+							<div class="fw-semibold small">Pasca Pelantikan, PPPK PSDUKU Jalin Silaturahmi dengan Ketua
+								Jurusan TI PNP</div>
+							<div class="small opacity-75">Khairiyah Almadani — October 6, 2025</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Mitra Kami Section -->
+		<section class="py-5 bg-white text-center">
+			<div class="container-fluid">
+				<h4 class="fw-bold mb-3">MITRA KAMI</h4>
+
+				<div class="row justify-content-center align-items-center g-4">
+					<div class="col-6 col-md-3">
+						<img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen-1024x376.jpg"
+							class="img-fluid" alt="Microsoft Academy">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCzxbk_eYYi3XuYL2l5xum1qAVFCBjiV1VA&s"
+							class="img-fluid" alt="Oracle Academy">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP6axkmoCMs4cLgIMpLQHWc4VmzqXX4gubew&s"
+							class="img-fluid" alt="Red Hat Academy">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazQeyEOIQ9PuQQ4E9hfwaK-2WlD3tw0Qiug&s"
+							class="img-fluid" alt="Mikrotik Academy">
+					</div>
+				</div>
+
+				<div class="row justify-content-center align-items-center g-4 mt-4">
+					<div class="col-6 col-md-3">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cisco_Networking_Academy.svg/2560px-Cisco_Networking_Academy.svg.png"
+							class="img-fluid" alt="Cisco Academy">
+					</div>
+					<div class="col-6 col-md-3">
+						<img src="https://vticloud.io/wp-content/uploads/2021/01/aws-educate.jpeg" class="img-fluid"
+							alt="AWS Educate">
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Informasi Section -->
+	<section class="bg-primary bg-opacity-30 text-dark py-5 w-100">
+		<div class="container-fluid px-5">
+			<div class="row g-4">
+				<!-- Pengumuman -->
+				<div class="col-md-6">
+					<div class="card bg-dark text-white border-0 shadow-lg rounded-4 h-100">
+
+						<div class="card-body">
+							<h4 class="card-title mb-4 fw-bold">Pengumuman</h4>
+							<div class="row row-cols-1 row-cols-md-2 g-3">
+								<div class="col">
+									<div class="card h-100 border-0">
+										<div class="ratio ratio-1x1">
+											<img src="https://ti.pnp.ac.id/wp-content/uploads/2022/06/Kuliah-Umum-409x258.jpeg"
+												class="card-img-top object-fit-cover" alt="Pengumuman 1">
+										</div>
+										<div class="card-body d-flex flex-column">
+											<h6 class="card-title fw-semibold">Kuliah Umum Bersama Prof. Dr.
+												Adiwijaya</h6>
+											<p class="text-muted small mb-1">June 1, 2022</p>
+											<p class="card-text small flex-grow-1">Membangun digital talent
+												berkarakter untuk kemandirian teknologi Indonesia</p>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="card h-100 border-0">
+										<div class="ratio ratio-1x1">
+											<img src="https://ti.pnp.ac.id/wp-content/uploads/2023/10/pekan-it-409x258.jpg"
+												class="card-img-top object-fit-cover" alt="Pengumuman 2">
+										</div>
+										<div class="card-body d-flex flex-column">
+											<h6 class="card-title fw-semibold">Webinar TI PNP Tahun 2023</h6>
+											<p class="text-muted small mb-1">October 16, 2023</p>
+											<p class="card-text small flex-grow-1">“PEKAN IT” Politeknik Negeri
+												Padang 2023 – The Digital Revolution</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-center mt-4">
+								<a href="#" class="btn btn-primary rounded-pill px-4">Lainnya</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Prestasi Mahasiswa -->
+				<div class="col-md-6">
+					<div class="card bg-dark text-white border-0 shadow-lg rounded-4 h-100">
+						<div class="card-body">
+							<h4 class="card-title mb-4 fw-bold">Prestasi Mahasiswa</h4>
+							<div class="row row-cols-1 row-cols-md-2 g-3">
+								<div class="col">
+									<div class="card h-100 border-0">
+										<div class="ratio ratio-1x1">
+											<img src="images/risetsawit.jpg" class="card-img-top object-fit-cover"
+												alt="Prestasi 1">
+										</div>
+										<div class="card-body d-flex flex-column">
+											<h6 class="card-title fw-semibold">Lomba Riset Sawit Tingkat Mahasiswa
+												2025</h6>
+											<p class="text-muted small mb-1">July 5, 2025</p>
+											<p class="card-text small flex-grow-1">Lolos Lomba Riset Sawit Tingkat
+												Mahasiswa 2025</p>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="card h-100 border-0">
+										<div class="ratio ratio-1x1">
+											<img src="images/isc.jpg" class="card-img-top object-fit-cover"
+												alt="Prestasi 2">
+										</div>
+										<div class="card-body d-flex flex-column">
+											<h6 class="card-title fw-semibold">Kolaborasi Mahasiswa TI & Manufaktur
+											</h6>
+											<p class="text-muted small mb-1">September 9, 2025</p>
+											<p class="card-text small flex-grow-1">Meraih Mendali Perunggu dan
+												Penghargaan Best Poster di Ajang Kompetisi ISC 2025</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-center mt-4">
+								<a href="#" class="btn btn-primary rounded-pill px-4">Lainnya</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-black text-white mt-5">
+		<div class="container py-5">
+
+			<div class="row gy-4 align-items-start">
+				<!-- Logo & Contact -->
+				<div class="col-12 col-md-6 col-lg-3">
+					<img src="https://ti.pnp.ac.id/wp-content/uploads/2022/01/logoti3-white.png" alt="Logo TI"
+						class="img-fluid mb-3" loading="lazy">
+					<p class="small mb-1">Kampus Politeknik Negeri Padang,<br>Limau Manis Padang</p>
+					<p class="small mb-1">Kode Pos : 25176</p>
+					<p class="small mb-0">Phone : 0751-72590</p>
+				</div>
+
+				<!-- Our Academy -->
+				<div class="col-6 col-md-6 col-lg-3">
+					<h6 class="fw-bold">OUR ACADEMY</h6>
+					<ul class="list-unstyled small mt-3">
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">MikroTik Academy</a>
+						</li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">RedHat Academy</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Oracle Academy</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">AWS Educate</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Cisco Networking
+								Academy</a></li>
+						<li><a href="#" class="text-white text-decoration-none">Microsoft IT Academy</a></li>
+					</ul>
+				</div>
+
+				<!-- Useful Links -->
+				<div class="col-6 col-md-6 col-lg-3">
+					<h6 class="fw-bold">USEFUL LINKS</h6>
+					<ul class="list-unstyled small mt-3">
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Academy</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Akreditasi</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Fasilitas</a></li>
+						<li class="mb-2"><a href="#" class="text-white text-decoration-none">Jurnal</a></li>
+						<li><a href="#" class="text-white text-decoration-none">Saran dan Masukan</a></li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-6 col-lg-3">
+					<h6 class="fw-bold">Follow us</h6>
+					<div class="d-flex align-items-center mt-3">
+						<a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+						<a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+						<a href="#" class="text-white"><i class="bi bi-youtube fs-5"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="position-relative my-4">
+				<hr class="border-light">
+				<a href="#top" class="btn btn-outline-light position-absolute start-50 translate-middle"
+					role="button">TOP</a>
+			</div>
+
+			<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+				<p class="small mb-2 mb-md-0">Jurusan Teknologi Informasi</p>
+
+				<div class="d-flex align-items-center">
+					<a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+					<a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+					<a href="#" class="text-white"><i class="bi bi-youtube fs-5"></i></a>
+				</div>
+			</div>
+
+			<p class="text-center small text-white-50 mb-0 mt-3">&copy; 2024 Jurusan Teknologi Informasi. All Rights Reserved.</p>
+		</div>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"crossorigin="anonymous"></script>
+	</body>
+</html>
